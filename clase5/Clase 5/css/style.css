@@ -1,0 +1,76 @@
+body{
+    background: #9bca8b;
+}
+
+header {
+    width: 1000px;
+    height:70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#marca {
+    width:220px;
+    height:70px;
+    float:left;
+}
+
+#botonera_principal {
+    width: 400px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+}
+
+#botonera_principal ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+#botonera_principal ul li {
+   display: inline;
+}
+#botonera_principal ul li a{
+    display: inline-block;
+    padding: 10px;
+    background-color:#e69c15;
+    color:rgb(54, 6, 6);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#botonera_principal ul li a:link {
+    color: rgb(49, 6, 240);
+}
+#botonera_principal ul li a:visited {
+    color: rgb(29, 85, 51);
+}
+
+#botonera_principal ul li a:hover {
+    background-color:rgb(194, 241, 21);
+    color: rgb(255, 255, 255);
+}
+
+#botonera_principal ul li a:active {
+    color: rgb(20, 180, 220);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

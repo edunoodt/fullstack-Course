@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(20, 20, 48);
+    padding-left: 12em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(131, 131, 185);
+}
+
+ol.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 5em;
+    left: 2em;
+    width: 9em;
+    border-right: double blue .2em;
+}
+
+p.navtit{
+
+    list-style: none;
+    padding: .3em;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 10em;
+    background: rgb(23, 63, 63);
+    border-bottom: solid red .5em;
+    
+}
+
+ol.navbar li{
+    background: rgb(23,63,63);
+    margin-top: .5em;
+    padding: .2em;
+    border-left: solid red 2em;
+}
+
+ol.navbar a {
+    text-decoration: none;
+    color: rgb(27, 6, 119);
+    font-style: italic;
+}
+
+label{
+    font-style: italic;
+}

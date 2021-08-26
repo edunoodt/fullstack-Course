@@ -1,0 +1,53 @@
+body{
+
+    background-color: burlywood;
+}
+
+header {
+    height: 80px;
+    background-color: brown;
+}
+
+#marca img{
+    height: 70px;
+    float: left;
+    margin-top: .3em;
+    margin-left: 1em;
+    
+}
+
+#botonera_principal {
+    float: right;
+    height: 70px;
+    width: 500px;
+    margin-top: 0;
+}
+
+
+#botonera_principal ul li {
+    display: inline;
+}
+
+#botonera_principal ul li a{
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(133, 90, 90);
+    color: white;
+    text-decoration: none;
+    border: grey solid .2em  ;
+    border-style: inset;
+}
+
+#botonera_principal ul li a:link {
+    color: white;
+}
+
+#botonera_principal ul li a:visited{
+    color: rgb(136, 11, 11);
+}
+
+#botonera_principal ul li a:hover {
+    background-color: yellowgreen;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
