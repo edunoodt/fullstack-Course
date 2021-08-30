@@ -51,3 +51,26 @@ header {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
+
+section {
+
+    height: 22em;
+    border-right: solid maroon .8em;
+}
+
+#hombre img {
+    height: 20em;
+    float: left;
+}
+
+#texto {
+    width: 53em;
+    height: 14em;
+    float:left;
+    border: solid rgb(173, 189, 87) 1em;
+    border-style: inset;
+    padding: 2em;
+    margin: 0;
+    overflow: scroll;
+    text-align: justify;
+}
