@@ -1,76 +1,472 @@
 body{
 
-    background-color: burlywood;
+    background-color: rgb(116, 85, 44);
 }
 
-header {
+p {
+    font-size: 14px;
+}
+
+header{
+    width: 960px;
     height: 80px;
-    background-color: brown;
+    background-color: darkslategray;
+    margin: 0 auto 0 auto;
 }
 
 #marca img{
+    width: auto;
     height: 70px;
+    margin: 5px 0 0 5px;
     float: left;
-    margin-top: .3em;
-    margin-left: 1em;
+}
+
+#botonera_principal{
+    width: auto;
+    height: 70px;
+    float: right;
+    margin-top: 10px;
+
+}
+
+#botonera_principal ul li{
+    display: inline;
+    background-color: rgb(48, 55, 121);
+    margin: 13px;
+    padding: 5px;
+    border: solid rgb(54, 126, 54) 3px;
+    border-style: outset;
+
     
 }
 
-#botonera_principal {
-    float: right;
-    height: 70px;
-    width: 500px;
-    margin-top: 0;
+#botonera_principal ul li a{
+    text-decoration: none;
+    color: floralwhite;
+    padding: 5px;   
 }
 
+#contenido_principal{
+    width: 960px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    background-color: rgb(63, 58, 56);
 
-#botonera_principal ul li {
+}
+
+#imagen1 {
+    width: 300px;
+    height: 200px;
+    background-image:url(../img/hombrecito.jpg);
+    float: left;
+    background-size: cover;
+}
+
+#presentacion{
+    width: 650px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: lightslategray;
+    float: right;
+}
+
+#titulo_articulo{
+    font-size: 34px;
+    margin-left: 20px;
+    color: rgb(59, 1, 1);
+}
+
+#contenido_articulo{
+    margin-left: 15px;
+    font-size: 20px;
+    color: rgb(85, 0, 26);
+}
+
+#texto_contenido{
+    width: 300px;
+    height: 230px;
+    background-color: midnightblue;
+    float: left;
+    margin-top: 10px;
+}
+
+#contenido_segundo{
+    font-size: 20px;
+    color: orangered;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+#imagen2{
+    width: 300px;
+    height: 230px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url(../img/compudesign.jpg);
+    background-size: cover;
+
+}
+
+#destacado{
+
+    width: 340px;
+    height: 230px;
+    float: right;
+    background-color: rgb(190, 175, 40);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#contenido_destacado{
+    font-size: 40px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+#imagen_aside{
+    width: 960px;
+    height: auto;
+    margin-top: 10px;
+}
+
+footer{
+    width: 960px;
+    height: 100px;
+    background-color: black;
+    margin: 10px auto 0 auto;
+}
+
+#datos{
+    width: 300px;
+    height: auto;
+    color: blanchedalmond;
+    font-weight: bold;
+    float: left;
+    margin-left: 15px;
+}
+
+#redes{
+    width: 300px;
+    height: auto;
+    float:right
+}
+
+#redes ul li{
     display: inline;
 }
 
-#botonera_principal ul li a{
-    display: inline-block;
-    padding: 1em;
-    background-color: rgb(133, 90, 90);
-    color: white;
-    text-decoration: none;
-    border: grey solid .2em  ;
-    border-style: inset;
+#redes ul li a img{
+    width: 20px;
+    height: auto;
+    margin-right: 15px;
 }
 
-#botonera_principal ul li a:link {
-    color: white;
+@media all and (min-width:600px) and (max-width:1023px) {
+    header{
+        width: 580px;
+        background-color: crimson;
+    }
+
+    #marca{
+        width: 150px;
+        float:left;
+    }
+    #botonera_principal{
+        width: 400px;
+        float: right;
+    }
+    #botonera_principal ul li{
+        margin: 5px;
+        padding: 3px;
+        font-size: 15px;
+    }
+
+    #contenido_principal{
+        width: 580px;
+        height: auto;
+        margin: 0 auto 0 auto;
+        background-color: rgb(63, 58, 56);
+    
+    }
+    
+    #imagen1 {
+        width: 270px;
+        height: 200px;
+        background-image:url(../img/hombrecito.jpg);
+        float: left;
+        background-size: cover;
+    }
+    
+    #presentacion{
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+        background-color: lightslategray;
+        float: right;
+    }
+    
+    #titulo_articulo{
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    
+    #contenido_articulo{
+        margin-left: 10px;
+        font-size: 15px;
+        color: rgb(56, 12, 12);
+    }
+
+    #texto_contenido{
+        width: 270px;
+        height: 230px;
+        background-color: midnightblue;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    #contenido_segundo{
+        font-size: 17px;
+        color: orangered;
+        font-style: italic;
+        margin-left: 15px;
+    }
+    
+    #imagen2{
+        width: 300px;
+        height: 230px;
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-image: url(../img/compudesign.jpg);
+        background-size: cover;
+    
+    }
+    
+    #destacado{
+    
+        width: 580px;
+        height: 150px;
+        float: right;
+        background-color: rgb(190, 175, 40);
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    #contenido_destacado{
+        font-size: 40px;
+        margin: 5px;
+        font-weight: bold;
+    }
+
+    #imagen_aside{
+        width: 580px;
+        height: auto;
+        margin-top: 10px;
+    }
+    
+    footer{
+        width: 580px;
+        height: 100px;
+        background-color: black;
+        margin: 10px auto 0 auto;
+    }
+    
+    #datos{
+        width: 280px;
+        height: auto;
+        color: blanchedalmond;
+        font-weight: bold;
+        float: left;
+        margin-left: 15px;
+    }
+    
+    #redes{
+        width: 280px;
+        height: auto;
+        float:right
+    }
+    
+    #redes ul li{
+        display: inline;
+    }
+    
+    #redes ul li a img{
+        width: 20px;
+        height: auto;
+        margin-right: 15px;
+    }
+    
 }
 
-#botonera_principal ul li a:visited{
-    color: rgb(136, 11, 11);
+@media all and (max-width: 599px) {
+
+    p {
+        font-size: 14px;
+    }
+    
+    header{
+        width: 90%;
+        height: auto;
+        background-color: rgb(34, 78, 13);
+        margin: 0 auto 0 auto;
+    }
+    
+    #marca img{
+        width: 100%;
+        height: auto;
+        margin: 5px 0 0 5px;
+        float: none;
+        
+    }
+    
+    #botonera_principal{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    #botonera_principal ul li{
+        display: block;
+        background-color: rgb(48, 55, 121);
+        padding: 5px;
+        border: solid rgb(54, 126, 54) 3px;
+        border-style: outset;
+    }
+    
+    #botonera_principal ul li a{
+        text-decoration: none;
+        color: floralwhite;
+        padding: 5px;   
+    }
+
+    #contenido_principal{
+        width: 90%;
+        height: auto;
+        margin: 0 auto 0 auto;
+        background-color: rgb(63, 58, 56);
+    }
+
+    #imagen1{
+        width: 100%;
+        height: 250px;
+        background-image:url(../img/hombrecito.jpg);
+        float: none;
+        background-size: cover;
+        box-sizing: border-box;
+    }
+
+
+    
+    #presentacion{
+        width: 100%;
+        height: auto;
+        margin:0;
+        background-color: lightslategray;
+        float: none;
+        box-sizing: border-box;
+    }
+    
+    #titulo_articulo{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
+    #contenido_articulo{
+        margin-left: 15px;
+        font-size: 18px;
+        color: rgb(56, 12, 12);
+    }
+    
+    #texto_contenido{
+        width: 100%;
+        height: auto;
+        background-color: midnightblue;
+        float: none;
+        margin-top: 10px;
+    }
+    
+    #contenido_segundo{
+        font-size: 18px;
+        color: orangered;
+        font-style: italic;
+        margin-left: 15px;
+    }
+    
+    #imagen2{
+        width: 100%;
+        height: 250px;
+        float: none;
+        margin-left: 0px;
+        margin-top: 10px;
+        background-image: url(../img/compudesign.jpg);
+        background-size: cover;
+    
+    }
+    
+    #destacado{
+    
+        width: 100%;
+        height: auto;
+        float: none;
+        background-color: rgb(190, 175, 40);
+        box-sizing: border-box;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    #contenido_destacado{
+        font-size: 30px;
+        margin: 5px;
+        font-weight: bold;
+    }
+
+    #complementario{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    #imagen_aside{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    footer{
+        width: 90%;
+        height: auto;
+        background-color: black;
+        margin: 10px auto 0 auto;
+    }
+    
+    #datos{
+        width: 100%;
+        height: auto;
+        color: blanchedalmond;
+        font-weight: bold;
+        float: none;
+        margin-left: 15px;
+    }
+    
+    #redes{
+        width: 100%;
+        height: auto;
+        float:none
+    }
+    
+    #redes ul li{
+        display: inline;
+    }
+    
+    #redes ul li a img{
+        width: 20px;
+        height: auto;
+        margin-right: 15px;
+    }
+    
+    
 }
 
-#botonera_principal ul li a:hover {
-    background-color: yellowgreen;
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
 
-section {
-
-    height: 22em;
-    border-right: solid maroon .8em;
-}
-
-#hombre img {
-    height: 20em;
-    float: left;
-}
-
-#texto {
-    width: 53em;
-    height: 14em;
-    float:left;
-    border: solid rgb(173, 189, 87) 1em;
-    border-style: inset;
-    padding: 2em;
-    margin: 0;
-    overflow: scroll;
-    text-align: justify;
-}

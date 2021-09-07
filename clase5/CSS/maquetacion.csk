@@ -1,0 +1,351 @@
+body{
+
+    background-color: rgb(116, 85, 44);
+}
+
+p {
+    font-size: 14px;
+}
+
+header {
+    height: 80px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: brown;
+}
+
+#marca img{
+    height: 70px;
+    float: left;
+    margin-top: .3em;
+    margin-left: 1em;
+    
+}
+
+#botonera_principal {
+    float: right;
+    height: 70px;
+    width: 500px;
+    margin-top: 0;
+}
+
+
+#botonera_principal ul li {
+    display: inline;
+}
+
+#botonera_principal ul li a{
+    padding: 1em;
+    background-color: rgb(133, 90, 90);
+    color: white;
+    text-decoration: none;
+    border: grey solid .2em  ;
+    border-style: inset;
+}
+
+#botonera_principal ul li a:link {
+    color: white;
+}
+
+#botonera_principal ul li a:visited{
+    color: rgb(136, 11, 11);
+}
+
+#botonera_principal ul li a:hover {
+    background-color: yellowgreen;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+#contenido_principal {
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#imagen1 {
+
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    float: left;
+    background-image: url(../img/hombrecito.jpg);
+    background-size: cover;
+
+}
+
+#presentacion{
+    width: 645px;
+    height: 300px;
+    background-color: rgb(71, 153, 153);
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#titulo_articulo{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+
+}
+
+#contenido_articulo{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#imagen2 {
+
+    width: 400px;
+    height: 300px;
+    background-color: cadetblue;
+    float: left;
+    background-image: url(../img/compudesign.jpg);
+    background-size: cover;
+    margin-left: 15px;
+
+}
+
+#texto_contenido{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+#contenido_segundo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#destacado{
+    width: 230px;
+    height: 300px;
+    background-color: rgb(193, 209, 49);
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido_destacado{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#complementario{
+    width: 960px;
+    height: 200px;
+    clear: both;
+}
+
+#imagen_aside{
+    width: 954px;
+    height: 194px;
+    border: solid brown 3px;
+}
+
+footer{
+    width: 960px;
+    height: 150px;
+    margin: 15px auto 0px auto;
+    background-color: rgb(8, 4, 31);
+    color: darkgrey;
+}
+
+#datos{
+    width: 300px;
+    height: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#redes{
+    width: 250px;
+    height: 50px;
+    float: right;
+    /*margin-top: -10px;*/
+    background-color: rgb(13, 64, 105);
+}
+
+#redes ul li {
+    display: inline;
+}
+
+#redes ul li a{
+    margin-right: 20px;
+    background-color: darkviolet;
+}
+
+#redes ul li a img {
+    width: 25px;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+    p{
+        font-size: 12px;
+    }
+    
+    header {
+        height: 160px;
+        width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(82, 19, 19);
+    }
+    
+    #marca img{
+        width: 300px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #botonera_principal {
+        height: 70px;
+        width: 500px;
+        margin-top: 0;
+        display: inline-block;
+    }
+    
+    
+    #botonera_principal ul li {
+        display: inline;
+    }
+    
+    #botonera_principal ul li a{
+        display: inline-block;
+        padding: 1em;
+        /*
+        background-color: rgb(133, 90, 90);
+        color: white;
+        text-decoration: none;
+        border: grey solid .2em  ;
+        border-style: inset;*/
+    }
+    
+    
+    #contenido_principal {
+        width: 580px;
+        height: 850px;
+        /*margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;*/
+    }
+    
+    #imagen1 {
+    
+        width: 200px;
+        /*height: 300px;*/
+        background-position: center;
+        background-size: cover;
+    
+    }
+    
+    #presentacion{
+        width: 370px;
+        height: 300px;
+    }
+    /*
+    #titulo_articulo{
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    
+    }
+    
+    #contenido_articulo{
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: justify;
+    }
+    */
+    #imagen2 {
+    
+        width: 285px;
+        height: 200px;
+        background-size: cover;
+    }
+    
+    #texto_contenido{
+        width: 280px;
+        height: 200px;
+    }
+    
+    #contenido_segundo{
+        font-size: 16px;
+    }
+    
+    #destacado{
+        width: 580px;
+        height: 200px;
+    }
+    
+    #contenido_destacado{
+        font-size: 25px;
+    }
+    
+    #complementario{
+        width: 574px;
+        height: 130px;
+    }
+    
+    #imagen_aside{
+        width: 574px;
+        height: 130px;
+    }
+    
+    footer{
+        width: 580px;
+        height: 150px;
+        margin: 10px auto 0px auto;
+        background-color: rgb(8, 4, 31);
+        color: darkgrey;
+    }
+    
+    #datos{
+        width: 300px;
+        height: 120px;
+        padding-left: 20px;
+        padding-top: 10px;
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    #redes{
+        width: 200px;
+        height: 50px;
+        float: right;
+        margin-top: 0px;
+        background-color: rgb(13, 64, 105);
+    }
+    
+    #redes ul li {
+        display: inline;
+    }
+    
+    #redes ul li a{
+        margin-right: 15px;
+        background-color: darkviolet;
+    }
+    
+    #redes ul li a img {
+        width: 20px;
+    }
+
+    /*Fin del responsive hasta 600px*/
